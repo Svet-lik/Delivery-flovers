@@ -8,59 +8,33 @@ a {
   color: inherit;
 }
 .app {
-  width: 1360px;
-  height: 780px;
-  margin: 0 auto;
-  padding-top: 66px;
   background: url("../img/Flowers.png") no-repeat center right;
   font-size: 20px;
   line-height: 120%;
   color: #2f2f2f;
   font-family: "Montserrat", sans-serif;
 }
-.header {
-  width: 980px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.container {
 }
-h1 {
-  width: 382px;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 36px;
-  line-height: 120%;
-  color: #ee6400;
+.header {
 }
 .time {
   font-weight: 500;
 }
 .description {
   margin-top: 68px;
-  margin-left: 190px;
-  width: 414px;
+  width: 400px;
 }
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
 .description-text {
-  margin-top: 23px;
 }
 .input-group {
-  margin-top: 115px;
-  display: flex;
-  align-items: center;
   position: relative;
-  font-size: 20px;
-  line-height: 24px;
 }
 .phone-input {
-  width: 322px;
-  padding: 15px 48px 15px 80px;
-  border: 1px solid #acacac;
-  box-sizing: border-box;
-  border-radius: 50px;
-  outline: none;
-  font-size: 20px;
-  line-height: 120%;
-  color: #2f2f2f;
   font-family: "Montserrat", sans-serif;
 }
 .phone-input ::placeholder {
@@ -73,36 +47,10 @@ h1 {
   top: 15px;
 }
 .button-next {
-  width: 52px;
-  height: 52px;
-  margin-left: 16px;
-  padding-top: 3px;
-  padding-left: 4px;
-  background-color: #ee6400;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  outline: none;
-  border: none;
-  cursor: pointer;
 }
-.button-next:hover {
-  transform: translate(2px, 2px);
-  -webkit-transform: translate(2px, 2px);
-  -moz-transform: translate(2px, 2px);
-  -ms-transform: translate(2px, 2px);
-  -o-transform: translate(2px, 2px);
-  transition: transform 0.2s;
-  -webkit-transition: transform 0.2s;
-  -moz-transition: transform 0.2s;
-  -ms-transition: transform 0.2s;
-  -o-transition: transform 0.2s;
-}
+
 .footer {
   margin-top: 76px;
-  margin-left: 190px;
   font-size: 16px;
   line-height: 20px;
   display: flex;
@@ -121,7 +69,10 @@ h1 {
 .footer-social {
   width: 145px;
 }
-.footer-social img:hover {
+.social-links {
+  margin-left: 166px;
+}
+/* .button-next:hover {
   transform: translate(2px, 2px);
   -webkit-transform: translate(2px, 2px);
   -moz-transform: translate(2px, 2px);
@@ -133,6 +84,15 @@ h1 {
   -ms-transition: transform 0.2s;
   -o-transition: transform 0.2s;
 }
-.social-links {
-  margin-left: 166px;
-}
+.footer-social img:hover {
+  transform: translate(2px, 2px);
+  -webkit-transform: translate(2px, 2px);
+  -moz-transform: translate(2px, 2px);
+  -ms-transform: translate(2px, 2px);
+  -o-transform: translate(2px, 2px);
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+} */
